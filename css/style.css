@@ -397,26 +397,41 @@ html {
 
 @media screen and (max-width: 768px) {
   html { 
-    background: url(../assets/tf_w23_mobile.png) no-repeat; 
-    background-size: cover;
+    background: url(../assets/blank_cabinet@2x.png) no-repeat; 
+    background-size: 80vh;
     background-position-x: center;
     background-color: #231F20;
   }
 
-  .glow {
+  .screen {
     display: none;
   }
 
+  .centered-element {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .mobile-screen{
+    background-image: url(../assets/tf_w23_screen.png);
+    background-size: 100% 100%;
+    padding: 1em;
+  }
   .event-container {
+
     display: grid;
     color: #F2E300;
     row-gap: 1em; 
     font-size: 1em;
   }
 
+
   .event-date {
     display: flex;
-    text-align: right;
+    text-align: left;
   }
   
   .event-title {
