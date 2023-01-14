@@ -397,7 +397,7 @@ html {
 
 @media screen and (max-width: 768px) {
   html { 
-    background: url(../assets/blank_cabinet@2x.png) no-repeat; 
+    background: url(../assets/blank_cabinet.png) no-repeat; 
     background-size: 80vh;
     background-position-x: center;
     background-color: #231F20;
@@ -441,6 +441,27 @@ html {
 
   .tf-logo > img {
     display: flex;
+    width: 90vw;
   }
 
+  .tf-logo h1 {
+    font-size: 1.2em;
+  }
+
+  .tf-logo-text{
+    margin: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .social-logos svg {
+    fill:#F2E300; 
+    height: auto;
+    width: 8vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+    text-align: right;
+  }
 }
