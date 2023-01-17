@@ -34,14 +34,14 @@ html {
 .sticker1 {
   height: 30vh;
   position: absolute;
-  top: 0;
+  top: -5vw;
   right: -5vw;
 }
 
 .sticker2 {
   height: 25vh;
   position: absolute;
-  bottom: 0;
+  bottom: -5vw;
   left: -5vw;
 }
 
@@ -53,6 +53,9 @@ html {
   max-width: 100vw;
   font-family: 'Press Start 2P' ,'VT323';
   color: #F2E300; 
+  background-image: url(../assets/tf_w23_screen.png);
+  background-size: 100% 100%;
+  padding: 10vw 15vw;
 }
 
 .tf-logo > img {
@@ -387,6 +390,10 @@ html {
     display: none;
   }
 
+  .info-container{
+    background-image: none;
+  }
+
   .centered-element {
     margin: 0;
     position: absolute;
@@ -408,6 +415,13 @@ html {
     font-size: 1em;
   }
 
+  .sticker1{
+    display: none;
+  }
+
+  .sticker2 {
+    display: none;
+  }
 
   .event-date {
     display: flex;
