@@ -16,6 +16,7 @@ html {
     background-size: cover;
     background-position-x: center;
     background-color: #231F20;
+    overflow: hidden;
 }
 
 /* #FFF9C0 #0E5387 */
