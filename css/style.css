@@ -8,7 +8,7 @@
     box-sizing: border-box;
 
 
-    /*outline: 1px solid red;*/
+    outline: 1px solid red;
 }
 
 html { 
@@ -410,7 +410,7 @@ html {
   .event-container {
     display: grid;
     color: #F2E300;
-    row-gap: 1.75em; 
+    row-gap: 1em; 
     font-size: 1em;
   }
 
