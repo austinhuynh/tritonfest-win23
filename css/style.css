@@ -415,6 +415,17 @@ html {
     font-size: 1em;
   }
 
+  .tf-logo > img {
+    display: inline-block;
+    max-width: 75vw;
+  }
+
+  .tf-logo > h1 {
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+    font-weight: lighter;
+  }
+
   .sticker1{
     display: none;
   }
